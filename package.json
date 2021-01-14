@@ -1,15 +1,23 @@
 {
   "name": "fullstack-candidate-testing",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p $PORT",
+    "test": "mocha -r esm"
   },
   "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^8.2.1",
     "next": "10.0.3",
+    "node-mocks-http": "^1.10.0",
+    "postcss": "^8.2.4",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "tailwindcss": "^2.0.2"
   }
 }

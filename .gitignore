@@ -66,3 +66,6 @@ yarn-error.log*
 .vercel
 
 .bash_history
+
+#custom
+changelog
