@@ -220,7 +220,7 @@ export default function Jobs() {
 			  </div>
 			  <SortBar setSortLast={setSortLast} />
 			</div>
-			{ isJobsLoading ? <div className="flex justify-center items-center h-48"><Spinner size={10}/></div> : <JobsList jobs={searchApplied ? searchedJobs : filterApplied ? sortedJobs : jobs} raw_list={filterApplied || searchApplied}/> }
+			{ isJobsLoading ? <div className="flex justify-center items-center h-48"><Spinner size={10}/></div> : <JobsList jobs={filterApplied ? sortedJobs : searchApplied ? searchedJobs : jobs} raw_list={filterApplied || searchApplied}/> }
 		  </div>
 		</section>
 	  </div>
