@@ -118,16 +118,16 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Goals
 
-[x] Clone this repo. Then clone the main branch and use the following naming convention for the new branch: **firstname-lastname-YYYY-MM-DD**. If your name is John Doe, and today's date is 2020-11-17, then the new branch should be called **john-doe-2020-11-17**.
-[x] The repo has 2 folders. **/data** and **/screenshots**.
-[x] In the **/data** folder you will find 2 .json files. This is the data you will use to build the React app. You have to build a simple REST API to consume the data in the React app.
-[x] In the **/screenshots** folder you will find what you are required to build for this test. 
-[x] We strongly recommend you use Next.js and TailwindCSS for this test, since these are the frameworks we are using to build our own apps, but if you're not familiar with them, then create-react-app or Bootstrap 4 or 5 are fine. 
-[x] The search input on top of the page should work. The search index should be built using the **/data/jobs.json** file.
-[x] Sort by options on top of the page should sort in 3 states per each filter: ascending, descending or remove the sorting operation.
-[x] Sort by options should work simultaneously with other sort by options and with the search input if the user is searching for something. This means that the user could sort for example by Location:asc, Department:asc while searching for a Nurse in California.
-[ ] Ensure your code can work with unstable internet connection (see in pages/api/jobs.js)
-[x] Implement unit tests for API at the server-sidePush you branch
-[x] Deploy your branch to a public url. We recommend you use Vercel, Netlify or AWS S3, but you're free to use any other service as long as the url is publicly accessible.
-[x] Include a README with the installation instructions and with the publicly accessible url.
-[ ] Don't forget to let us know you're done to review your test.
+- [x] Clone this repo. Then clone the main branch and use the following naming convention for the new branch: **firstname-lastname-YYYY-MM-DD**. If your name is John Doe, and today's date is 2020-11-17, then the new branch should be called **john-doe-2020-11-17**.
+- [x] The repo has 2 folders. **/data** and **/screenshots**.
+- [x] In the **/data** folder you will find 2 .json files. This is the data you will use to build the React app. You have to build a simple REST API to consume the data in the React app.
+- [x] In the **/screenshots** folder you will find what you are required to build for this test. 
+- [x] We strongly recommend you use Next.js and TailwindCSS for this test, since these are the frameworks we are using to build our own apps, but if you're not familiar with them, then create-react-app or Bootstrap 4 or 5 are fine. 
+- [x] The search input on top of the page should work. The search index should be built using the **/data/jobs.json** file.
+- [x] Sort by options on top of the page should sort in 3 states per each filter: ascending, descending or remove the sorting operation.
+- [x] Sort by options should work simultaneously with other sort by options and with the search input if the user is searching for something. This means that the user could sort for example by Location:asc, Department:asc while searching for a Nurse in California.
+- [ ] Ensure your code can work with unstable internet connection (see in pages/api/jobs.js)
+- [x] Implement unit tests for API at the server-sidePush you branch
+- [x] Deploy your branch to a public url. We recommend you use Vercel, Netlify or AWS S3, but you're free to use any other service as long as the url is publicly accessible.
+- [x] Include a README with the installation instructions and with the publicly accessible url.
+- [ ] Don't forget to let us know you're done to review your test.
